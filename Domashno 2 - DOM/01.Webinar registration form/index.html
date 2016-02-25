@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 1 - Webinar registration form</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Регистрация за уебинар</h1>
+        </header>
+
+        <form name="registration" action="/" method="post">
+            <div>
+                <p>Име и фамилия: <span>*   </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>Адрес: </p>
+                <input type="text" name="adress" value=" " />
+
+                <p>Населено място: </p>
+                <input type="text" name="location" value=" " />
+
+                <p>Пощенски код: </p>
+                <input type="text" name="postal_code" value=" " />
+
+                <p>Email: <span>*   </span></p>
+                <input type="email" name="name" value=" " />
+
+                <p>Телефон: <span>*   </span></p>
+                <input type="text" name="phone" value=" " />
+
+                <p>Дата на семинара: <span>*   </span></p>
+                <input type="date" name="date" value=" " />
+
+                <div id="facture">
+                    <p>Желая фактура</p>
+                    <input type="checkbox" name="checkbox" id="checkbox" value=" " />
+                </div>
+
+                <div id="div_to_show">
+                    <p>Фирма/Организация: <span>*   </span></p>
+                    <input type="text" name="company" value=" " />
+
+                    <p>МОЛ: <span>*   </span></p>
+                    <input type="text" name="mol" value=" " />
+
+                    <p>ЕИК: <span>*   </span></p>
+                    <input type="text" name="eik" value=" " />
+
+                    <p>ИН по ДДС: <span>*   </span></p>
+                    <input type="text" name="in" value=" " />
+
+                    <p>Адрес: <span>*   </span></p>
+                    <input type="text" name="company_adress" value=" " />
+                </div>
+            </div>
+        </form>
+
+        <footer>
+          <button type="button">Регистрирай се</button>
+            <button type="button">Изчисти</button>
+        </footer>
+    </div>
+<script type="text/javascript" src="checkbox_function.js" defer></script>
+</body>
+</html>
